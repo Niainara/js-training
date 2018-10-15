@@ -5,7 +5,7 @@
  *
  * @notions Data-Structures
  */
-
+const arr = [4,"2"];
 // Your code :
 
 //* Begin of tests
