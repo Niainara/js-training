@@ -8,6 +8,12 @@
 
 // Your code :
 
+function sub(x,y) {
+    let result=0;
+    result=x-y;
+    return result
+}
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
