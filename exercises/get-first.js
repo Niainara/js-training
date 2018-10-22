@@ -9,9 +9,9 @@
 
 // Your code :
 
-function getFirst ([2 , 42]){
-    return getFirst [0];
-
+const array = [2, 42];
+function getFirst (array){
+    return array [0];
 }
 
 //* Begin of tests
@@ -22,4 +22,4 @@ assert.strictEqual(getFirst([ 'pouet', 4, true ]), 'pouet')
 assert.strictEqual(getFirst([ getFirst ]), getFirst)
 assert.strictEqual(getFirst('salut'), 's')
 assert.strictEqual(getFirst([]), undefined)
-// End of tests */
+// End of tests */  
